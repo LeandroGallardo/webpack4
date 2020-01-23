@@ -1,3 +1,6 @@
-import '../css/index.css'
+import '../css/index.css';
+import React from 'react';
+import { render } from 'react-dom';
+import App from '../../component/app';
 
-console.log('hola desde webpack');
+render(< App />, document.getElementById('container'));
